@@ -1,0 +1,1614 @@
+html {
+     font-family: 'Roboto', sans-serif;
+}
+
+header{
+  background: url(../images/focal_background_01-compressor.jpg) no-repeat center top / cover;
+    height: 1000px;
+}
+
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.hero {
+    margin-left: 35px;
+     padding: 465px 440px;
+ 
+}
+
+h1:before{
+    content:"";
+    position: absolute;
+    display:block;
+    width: 100%;
+    border-top: 4px solid #fff;
+    top: 0;
+}
+
+
+h1 {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size:60px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    font-weight: bold;
+    justify-content: center;
+    width: 750px;
+
+}
+
+h1:after {
+    position: absolute;
+    content:"";
+    display:block;
+    border-top: 4px solid #fff;
+    margin-top: 8px;
+    width: 100%;
+}
+
+
+.hero a {
+    margin: 50px 270px;
+    padding: 23px  8px 0 0; 
+    background-color: transparent;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid #fff;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+     position: absolute;
+}
+.hero_marker {
+    position: absolute;
+    margin-top: 240px;
+    right: 12%;
+}
+
+.hero_marker span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+}
+.hero_marker span.active {
+    background-color: #fff;
+}
+/*navigation*/
+
+.navbar  {
+    height: 70px;
+    background-color: #252e30;
+
+    
+}
+.flex-container {
+    display:flex;
+}
+
+.container1 {
+    justify-content: space-between;
+    max-width: 1350px;
+    margin: 0 auto;
+    
+}
+.main-nav {
+    margin-top: 10px
+}
+
+.main-nav li {
+    list-style:none;
+}
+
+.main-nav a {
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 10px 30px 0 0;
+    padding: 26px 0;
+    font-weight: bold;
+    line-height: 1.66667em;
+}
+
+.main-nav a:hover {
+    color:#29784e;
+}
+.mobile-nav {
+    display: none;
+}
+.logo {
+    padding: 13px 0;
+}
+
+/*values goals hobbies*/
+
+.val  {
+    height: 345px;
+}
+.values, .Goals, .Hobbies {
+
+    width: 361px;
+    height: 175px;
+    
+}
+.val h2 {
+    margin-top: 97px;
+    color:#566366;
+    font-size: 30px;
+    line-height: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.val p {
+    margin-top: 50px;
+    color:#919191;
+    font-size: 18px;
+    line-height: 1.6667em;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+/*About*/
+
+.about {
+    background-color: #f2f2f1;   
+    max-height: 754px;
+    
+}
+
+.right{
+    margin: 100px 0 100px 100px;
+    
+}
+
+.right h2 {
+    color: #566366;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0.8em;
+    text-transform: uppercase;
+    margin-top: auto
+}
+
+.right p {
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.66667em; 
+    margin-top: auto;
+}
+
+.right .lor {
+    padding-right: 127px;
+    margin-top: 50px;
+    margin-top: auto;
+}
+
+.right h3 {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.09090909em;
+    color: #566366;
+    margin-left: 20px;
+    margin-top: auto;
+    text-transform: uppercase;
+}
+ 
+.icons{
+    margin-top: 50px;
+}
+.icons2 {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.button h3{
+    margin-top: auto;
+    margin-left: 30px;
+
+}
+
+.icons p{
+    margin-top: auto;
+    margin-left: 20px;
+    max-width: 280px;
+}
+
+.icons2 p{
+    margin-top: auto;
+    margin-left: 20px;
+     max-width: 280px;
+}
+ 
+.icons img {
+    height: 40px;
+    width: 40px;
+}
+
+.icons2 img {
+    height: 49px;
+    width: 35px;
+    
+}
+
+/*skills*/
+
+
+.skills {
+  padding: 100px 10%;
+  font-size: 18px;
+  line-height: 1.66667em; 
+  max-height: 450px;
+ 
+}
+.skills  div {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+.skills h3 {
+    color: #566366;
+    font-size: 30px;
+    line-height: 0.8em;
+    text-transform: uppercase;
+    margin: auto;
+}
+.skills > div p {
+  margin-bottom: 45px;
+   margin-right: 0px;
+    color: #919191;
+}
+.skills > div a {
+  display: block;
+  width: 185px;
+  font-size: 18px;
+  padding: 20px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2ecc71;
+  border: 2px solid #2ecc71;
+  font-weight: bold;
+  text-align: center;
+}
+.skills ul {
+  display: inline-block;
+  margin-top: -360px;
+  padding-left: 60%;
+  vertical-align: top;
+  width: 520px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.skills ul li {
+  margin-bottom: 35px;
+}
+.skills ul li:last-child {
+  margin: auto;
+}
+.skills ul h4 {
+  margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 1.0909091em;
+    color: #566366;
+    font-weight: bold; 
+}
+.skills ul div {
+  width: 100%;
+  background-color: #f2f2f1;
+  height: 30px; 
+}
+
+.skills ul div span {
+  display: block;
+  height: 30px;
+  background-color: #2ecc71;
+  color: #fff;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.skills ul div span :last-child{
+    margin-bottom: 100px;
+}
+/*my education*/
+.myed h3 {
+    font-weight: bold; 
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0.8em;
+    color: #566366;
+    margin: 100px 1090px 0 210px
+}
+
+.myed .top { 
+    margin: 49px 820px 0 210px;
+    color: #919191;
+    font-size: 18px;
+    line-height: 1.66667em;
+    font-weight: 400;
+}
+/*Resume*/
+
+.main_resume_download {
+  padding: 70px 100px 100px 100px ;
+  background-color: #f2f2f1;
+  text-align: center;
+  position: relative;
+}
+.main_resume_download h3{
+   font-weight: bold; 
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0.8em;
+    color: #566366;
+    
+}
+
+.main_resume_download p {
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.66667em;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.main_resume_download a {
+  display: block;
+  width: 220px;
+  margin: 48px auto 0 auto;
+  font-size: 18px;
+  padding: 20px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2ecc71;
+  border: 2px solid #2ecc71;
+  font-weight: bold;
+  text-align: center;
+}
+.main_resume_download:after {
+  content: ' ';
+  display: block;
+  width: 80px;
+  height: 80px;
+  bottom: -50px;
+  left: 50%;
+  background-color: #f2f2f1;
+  position: absolute;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.main_resume_web {
+  padding: 100px 10%;
+  font-size: 18px;
+}
+
+.main_resume_web h3 {
+    font-weight: bold; 
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0.8em;
+    color: #566366;
+}
+
+.main__resume_web > div {
+  display: inline-block;
+  width: 50%;
+  padding-right: 50px;
+  vertical-align: top;
+      
+}
+.main_resume_web > div p {
+    margin-bottom: 45px;
+    margin-right: 800px;
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.66667em;
+}
+.main_resume_web ul {
+    display: inline-block;
+    width: 50%;
+    padding-left: 50%;
+    vertical-align: top;
+    margin-top: -260px;
+    list-style-type: none;
+    margin-bottom: 190px;
+}
+
+.main_resume_web ul span {
+  display: block;
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.66667em;
+  margin-bottom: 15px;
+}
+.main_resume_web ul span span {
+  font-weight: 300;
+  display: inline-block;
+  margin-bottom: 0;
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.66667em;
+}
+.main_resume_web ul div {
+  display: inline-block;
+  background-color: #2ecc71;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  margin-bottom: 15px; 
+  text-transform: uppercase;
+}
+
+.main_resume_web ul li {
+  margin-bottom: 80px;
+}
+
+.main_resume_web ul li p {
+     color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.66667em;
+    margin-right: 35px;
+    
+}
+
+.main_resume_web li {
+text-decoration: none;
+     
+}
+
+.main_resume_web ul li:last-child {
+  margin-bottom: -100px;
+}
+.main_resume_web ul h4 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 1.0909091em;
+    color: #566366;
+    font-weight: bold;
+
+}
+
+.main_resume_web2 {
+  padding: 100px 10%;
+  font-size: 18px;
+}
+
+.main_resume_web2 h3 {
+    font-weight: bold; 
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0.8em;
+    color: #566366;
+}
+
+.main_resume_web2 > div {
+  display: inline-block;
+  width: 50%;
+  padding-right: 50px;
+  vertical-align: top;
+      
+}
+.main_resume_web2 > div p {
+    margin-bottom: 45px;
+    margin-right: 1px;
+    padding-right: 100px;
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.66667em;
+}
+.main_resume_web2 ul {
+    display: inline-block;
+    width: 50%;
+    padding-left: 50%;
+    vertical-align: top;
+    margin-top: -265px;
+    list-style-type: none;
+    margin-bottom: 190px;
+
+
+}
+.main_resume_web2 ul li {
+  margin-bottom: 80px;
+}
+
+.main_resume_web2 ul li p {
+     color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.66667em;
+    margin-right: 45px;
+    
+}
+
+.main_resume_web2 li {
+text-decoration: none;
+     
+}
+
+.main_resume_web2 ul li:last-child {
+  margin-bottom: -270px;
+}
+.main_resume_web2 ul h4 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 1.0909091em;
+    color: #566366;
+    font-weight: bold;
+
+}
+
+.main_resume_web2 ul span {
+  display: block;
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.66667em;
+  margin-bottom: 15px;
+}
+.main_resume_web2 ul span span {
+  font-weight: 300;
+  display: inline-block;
+  margin-bottom: 0;
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.66667em;
+}
+.main_resume_web2 ul div {
+  display: inline-block;
+  background-color: #2ecc71;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  text-transform: uppercase;
+}
+.main_resume_web2 ul hr {
+  margin: 30px 0;
+  display: block;
+  border: 0;
+  background-color: #ccc;
+  height: 1px;
+}
+.main_resume_web  hi {
+  margin: 10px;
+  padding: 200px; 
+  display: block;
+  background-color: #ccc;
+}
+/*John*/
+
+.container7 {
+    width: 1060px;
+    margin: 0 auto; 
+    height: 460px;
+}
+.john {
+    background-color: #f2f2f1;
+}
+.john p {
+    color: #919191;
+    font-size: 24px;
+    line-height: 0.8em;
+    font-weight: 400;
+    font-style: italic;
+    
+}
+.john .top{
+    padding-top: 97px;
+}
+.john .botton {
+    padding-left: 175px;
+}
+
+.john h3 {
+    padding: 30px 0 20px 0;
+    color: #566366;
+    font-size: 24px;
+    line-height: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.john_marker {
+    text-align: center;
+}
+
+.john_marker span {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #2ecc71;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 10px 50px
+
+}
+
+.john_marker span.active {
+    background-color: #2ecc71;
+}
+/*Portfolio*/
+
+.container8{ 
+    height: 1360px;
+    background-color: #fff;
+}
+
+.portfolio h3 {
+    padding: 100px 510px 0 750px;
+    color: #566366;
+    font-size: 30px;
+    line-height: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.portfolio p  {
+    color: #919191;
+    font-size: 18px;
+    line-height: 1.66667em;
+    font-weight: 400;
+}
+
+.portfolio .top {
+    padding: 10px 150px 0 200px; 
+    margin: auto;
+}
+
+.portfolio .button {
+    padding: 0 300px 20px 370px;
+    margin: auto;
+}
+
+.row1 .first {
+   margin: 100px 0 0 160px ;
+    vertical-align: middle
+}
+.row2 {
+    margin-left: -100px;
+    vertical-align: middle
+}
+
+.row3 {
+    margin-left: -100px;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+
+.row1 .first {
+    margin-top: 60px;
+    margin-right: 0px;
+}
+
+.row1 .second {
+    margin-top: 36px;
+}
+
+.row1 .last {
+    margin-top: 36px;
+    margin-bottom: 104px;
+}
+
+.row3 .last {
+    margin-bottom: -300px;
+}
+
+.row1, .row2, .row3 img{
+   transform-origin: 0 0;
+  transition: transform .25s, visibility .25s ease-in;
+}
+
+.row1 img:hover{
+  transform: scale(1.2);
+}
+
+/*contact*/
+
+.forms {
+    padding: 75px 0 100px 7%;
+    background-color: #252e30;
+    font-size: 18px;
+    line-height: 1.66667em;
+}
+.forms h3  {
+    margin-left: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 0.8em;
+}
+.forms > div  {
+  display: inline-block;
+  width: 65%;
+  padding-right: 0px;
+  vertical-align: top;
+  color: #fff
+}
+.forms > div > p {
+  margin-left: 60px;
+  margin-bottom: 45px;
+  margin-left: 60px;
+  color: #fff;
+}
+.forms > div div {
+  margin: auto;
+  margin-bottom: 18px;
+  color: #919191;
+  margin-left: 60px;
+}
+.forms > div div p{
+    margin: auto;
+  color: #919191;
+}
+.forms  > div span  {
+  margin-left: 90px;
+  margin-top: -30px;
+  color: #919191;
+  font-size: 18px;
+  font-weight: 300;
+  display: block;
+}
+.forms  > div span p {
+  display: inline-block;
+  color: #919191;
+  margin-left: 42px;
+  margin: auto;
+  margin-left: 35px
+}
+
+.forms form {
+  display: inline-block;
+  width: 64%;
+  padding-left: 100px;
+  vertical-align: top;
+}
+.forms form label:first-child {
+  font-size: 18px;
+  color: #fff;
+   margin-top: 50px;
+  margin-bottom: 15px;
+  display: block;
+  font-weight: 300;
+}
+
+.forms form label {
+  font-size: 18px;
+  color: #fff;
+    margin: auto;
+  margin-bottom: 15px;
+  display: block;
+  font-weight: 300;
+}
+.forms form label span {
+  color: #919191;
+  display: inline-block;
+  margin-left: 5px;
+}
+.forms form input[type="text"], .forms form input[type="email"] {
+  background-color: #4b5456;
+  margin-bottom: 35px;
+  color: #fff;
+  width: 87%;
+  font-weight: 400;
+  padding: 15px 10px;
+  font-size: 18px;
+}
+.forms form textarea {
+  height: 270px;
+  padding: 10px;
+  font-size: 15px;
+  resize: vertical;
+  font-weight: 400;
+  margin-bottom: 35px;
+  width: 87%;
+  color: #fff;
+  background-color: #4b5456;
+}
+.contact form input[type="submit"]  {
+  background-color: #191f21;
+  padding: 20px 40px ;    
+  margin-right: 300px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+}
+/*footer*/
+
+.foot {
+    max-width: 380px;
+    max-height: 177px;
+    margin: auto;
+}
+
+.footer {
+     background-color: #191f21;
+     padding: 10px 0 30px 0;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+
+.copyright {
+    color:#3e4648;
+    font-size: 14px;
+    line-height: 2.142857152857em;
+    text-transform: uppercase;
+}
+.footer li a {
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 10px;
+    width: 17px;
+    height: 17px;
+    background-color: #4b5456;
+    display:block;
+    color: #191f21;
+    text-decoration: none;
+}
+
+
+.footer li a:hover {
+    color:#fff;
+}
+
+.footer a:hover {
+    color:#fff;
+}
+@media screen and (max-width: 1370px) {
+.row1 .first {
+   margin: 100px 0 0 140px ;
+    vertical-align: middle
+}
+}
+@media screen and (max-width: 1290px) {
+    
+    .container8 {
+        width: 1500px;
+    }
+       .rows img {
+        width: 200px;
+        height: 200px;
+    }
+
+   .row1 .first {
+   margin: 100px 0 0 200px ;
+    vertical-align: middle
+}
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .hero {
+    margin-left: 100px;
+     margin-right: 0px;
+     padding: 465px 20px;
+ 
+}
+
+h1:before{
+    width: 750px;
+    top: -13px;
+}
+
+
+h1 {
+    display: inline;
+
+}
+
+h1:after {
+    width: 750px;
+ 
+}
+    .hero a {
+   margin: 50px 298px;
+    }
+    
+    .main-nav {
+        display: none;
+    }
+    
+    .mobile-nav {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+    
+    .mobile-nav li {
+        list-style:none;
+    }
+    
+    .mobile-nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 33px;
+        padding: 0px;
+        background-color: #252e30;
+    }
+    
+    .mobile-nav a {
+        color: #fff;
+        font-size: 1rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 0 100px;
+        padding: 10px 17px;
+        display: block;
+    }
+    
+    .mobile-nav a:hover, mobile-nav a:active {
+        background-color: #8a8a83;
+        border-radius: 5px;
+    }
+    
+    .mobile-nav a.icon {
+        display: block;
+        position: absolute;
+        right: -94px;
+        top: 10px;
+        color: #ffffff;
+    }
+    
+    .val {
+        flex-direction: column;
+        height: 860px;
+    }
+    .val h2 {
+       margin-top: 20px;
+        margin-left: 120px;
+    }
+     .values p {
+         margin-bottom: auto;
+         margin-left: 120px;
+         margin-right: -120px
+         
+    }
+    
+    .values {
+        margin:100px 0 0 ;
+    }
+        
+    .Goals h2 {
+        margin-top:0px;
+    }
+    
+    .Hobbies h2 {
+         margin-top: -60px;
+        margin-bottom: 20px;
+    }
+    
+    .Goals p {
+       margin-left: 120px;
+         margin-right: -120px
+    }
+    
+    .Hobbies p {
+        margin-left: 120px;
+         margin-right: -120px;
+        margin-bottom: -120px
+    }
+    .about {
+        flex-direction: column;
+        max-height: 2000px;
+        margin-right: 321px;
+        margin: auto;
+    }
+    .left img {
+         padding-left: 200px;
+    }
+    
+    .right h2 {
+         padding-left: 20px;
+    }
+    
+    .right .lor {
+    padding-left: 20px;
+    padding-right: 140px;
+    margin-top: 50px;
+    margin-top: auto;
+}
+    
+    .webonl{
+         padding-left: 20px;
+    }
+    
+    .icons2 {
+         margin-left: -8px;
+    }
+    
+    .icons2 p{
+        margin-left: 30px;
+    }
+    
+    .Grapseo { 
+        padding-left: 20px;
+    }
+    .skills {
+          max-height: 1300px;
+    }
+    .skills h3 {
+        padding-left: 20px;
+    }
+    .skills ul {
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+    
+    .skills > div p {
+        padding-left: 20px;
+        margin-right: -350px
+    }
+    
+    .skills > div a {
+        margin-left: 20px;
+    }
+    
+    .main_resume_download h3{
+        margin-left: -50px
+    }
+     .main_resume_download p{
+        margin-left: -160px;
+         margin-right: -80px;
+    }
+    .main_resume_download a{
+        margin-left: 290px;
+    }
+    
+    .main_resume_web {
+        max-width: 400px
+    }
+    
+    .main_resume_web2 {
+        max-width: 600px
+    }
+    
+    .main_resume_web h3 {
+        padding-left: 20px;
+    } 
+    
+    .main_resume_web ul {
+        margin-top:0px;
+        padding-left: 20px; 
+        width: 100%;
+    } 
+   
+    .main_resume_web > div p {
+         padding-left: 20px;
+        margin-right: -200px;
+
+        
+    }
+     .main_resume_web2 h3 {
+       margin-left: 5px;
+         
+    } 
+    
+    .main_resume_web2 ul {
+        margin-top:0px;
+        margin-left: -150px;
+        margin-right: 0px;
+        width: 80%;
+    } 
+     .main_resume_web2 ul li  {
+         margin-left: -146px;
+        margin-right: 270px;
+        
+    } 
+     .main_resume_web2 ul li p {
+        margin-top:0px; 
+         margin-right: 0px;
+         padding-bottom: 100px;
+        
+    } 
+    
+    .main_resume_web2 > div p {
+        margin-left: 5px;
+        margin-right: -240px
+    }
+    
+    .container7 {
+        padding-left: 100px;
+        margin-right: 900px;
+        max-width: 550px;
+        max-height: 700px;
+    }
+    
+    .john .botton {
+    padding-left: 0px;
+}
+    
+     .john h3 {
+           margin-left: 230px;
+    }
+    .john_marker {
+        margin-left: 226px;
+    }
+    
+    
+    .portfolio h3 {
+    padding-left: 100px;
+            margin-left: 219px;
+}
+    .portfolio .top {
+    padding-left: 100px;
+        margin-right: 700px;
+    }
+    
+    .portfolio .button {
+         padding-left: 100px;
+        padding-right: 0px;
+         margin-right: -500px;
+    }
+    
+    .container8{
+        height: 960px;
+        margin-right: 800px;
+    }
+    
+    .rows img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .row1, row2, .row3 {
+        margin-left: -100px;
+        padding-right: 0px;
+         margin-right: 20px;
+    }
+    
+   .row2 {
+    margin-left: -150px;
+       margin-bottom: -70px;
+       margin-right: -60px;
+    }
+    
+    .forms {
+         flex-direction: column;
+    }
+    
+     .forms form {
+        padding-left: 60px;
+    }
+}
+    @media screen and (max-width: 768px) {
+        
+        h1:before{
+    width: 450px;
+}
+        
+        h1:after {
+            width: 450px;
+ 
+}
+           .left img {
+         padding-left: 100px;
+    }
+        .hero a {
+    margin: 50px 179px;
+    }
+        .webonl {
+            flex-direction: column;
+        }
+        
+        .Grapseo {
+            flex-direction: column;
+        }
+        
+        .main_resume_download a{
+        margin-left: 180px;
+    }
+        
+        .main_resume_web2 ul {
+        margin-top:0px;
+        margin-left: -100px;
+        margin-right: 00px;
+    }
+        .rows {
+            height: 760px;
+        }
+        
+        .john h3 {
+              margin-left: -17px;
+        }
+        
+        .john_marker {
+             margin-left: -12px;
+        }
+          .portfolio .top {
+    padding-left: 100px;
+         margin-right: 700px;
+    }
+        
+        .forms {
+            height: 1400px;
+        }
+ }
+     @media screen and (max-width: 414px) {
+     
+         .hero {
+            margin-left: 25px;
+            padding: 465px 40px;
+        }
+         h1:before{
+            width: 300px;
+}
+         h1 {
+             font-size: 40px;
+         }
+        h1:after {
+            width: 300px;
+ 
+}   
+      .hero a {
+    margin: 50px 58px;
+    }
+        
+         .hero_marker {
+             position: absolute;
+             margin-top: 290px;
+            right: 12%;
+}
+           .mobile-nav a.icon {
+        right: -70px;
+    }
+         
+         .mobile-nav ul {
+        padding: 5px ;
+             margin: 20px  0 0 -10px;
+    }
+         .val {  
+        height: 760px;
+    }
+
+    .val h2 {
+       margin-top: auto;
+        margin-left: 20px;
+    }
+     .values p {
+         margin-bottom: -70px;
+         margin-left: 20px;
+         margin-right: 50px;
+          margin-top: auto;
+         
+    }
+         .Goals h2 {
+             margin-top: -80px;
+              margin-top: auto;
+         }
+         .Goals p {
+         margin-left: 20px;
+         margin-right: 50px;
+         margin-bottom: 0px; 
+              margin-top: auto;
+         }
+         
+         .hobbies h2 {
+              margin-top: auto;
+         }
+         .Hobbies p {
+         margin-left: 20px;
+         margin-right: 50px;
+             margin-bottom: 250px;
+              margin-top: auto;
+         }
+         
+          .about {
+        max-height: 2400px;
+
+    }
+         
+         .left img {
+         padding-left: 20px;
+             width: 300px;
+            height: 350px;
+    }
+         .right h2 {
+             margin-left: -70px;
+         padding-left: 0px;
+              margin-right: 200px;
+    }
+    
+    .right .lor {
+   margin-left: -70px;
+         padding-left: 0px;
+         margin-right: 30px;
+}
+    
+    .webonl{
+            margin-left: -70px;
+         padding-left: 0px;
+        margin-right: 200px;
+    }
+    
+    .icons2 {
+           margin-left: 0px;
+         padding-left: 0px;
+    }
+    
+    .icons2 p{
+           margin-left: 0px;
+         padding-left: 30px;
+    }
+    
+    .Grapseo { 
+         margin-left: -80px;
+        margin-right: 200px;
+    }
+         .skills {
+          max-height: 1300px;
+    }
+    .skills h3 {
+        padding-left: 0px;
+    }
+    .skills ul {
+        margin-top: 20px;
+        padding-left: 0px;
+        margin-right: 500px;
+    }
+        
+         
+         .skills ul div  {
+            width: 60%;
+         }
+         
+    .skills > div p {
+        padding-left: 0px;
+        margin-right: -20px;
+    }
+    
+    .skills > div a {
+        margin-left: -10px;
+    }
+          .main_resume_download h3{
+        margin-left: -0px
+    }
+     .main_resume_download p{
+        margin-left: -170px;
+         margin-right: -155px;
+    }
+    .main_resume_download a{
+        margin-left: -20px;
+    }
+         .main_resume_web > div p {
+             margin-right: 21px;
+         }
+         
+    .main_resume_web2 h3 {
+        margin-left: 0px;
+         
+    }   
+    
+         .main_resume_web2 > div p {
+             margin-left: 0px;
+                 margin-right: -237px;
+         }
+         .main_resume_web2 ul {
+             margin-left: 23px;
+             margin-right: 70px;
+             padding-right: 140px;
+         }
+         
+         .main_resume_web2 ul li {
+                 margin-left: -190px;
+                margin-right: 190px;
+         }
+         
+         .main_resume_web2 ul span {
+             margin-right: 0px;
+         }
+         
+         .container7 {
+             height: 560px;
+         }
+         
+         .john p {
+              margin-left: -70px;
+                margin-right: 260px;
+    
+}
+.john .top{
+    margin-left: -70px;
+    margin-right: 303px;
+}
+.john .botton {
+    padding-left: 175px;
+      margin-left: -240px;
+    margin-right: 302px;
+}
+
+.john h3 {
+    margin-left: -376px;
+    
+}
+         .john_marker {
+        margin-left: -380px;
+}
+         .container8{ 
+    height: 2760px;
+    background-color: #fff;
+}
+         .portfolio h3 {
+          padding-left: 100px;
+             margin-left: 31px
+         }
+         .portfolio .top {
+             margin-right: 1024px;
+         }
+          .portfolio .button {
+         margin-right: 1187px;
+    }
+             .rows img {
+        width: 200px;
+        height: 200px;
+    }
+         .row1 {
+             flex-direction: column;
+         }
+         .row2 {
+             flex-direction: column;
+             margin-left: 0px; 
+             margin-top: -170px;
+         }
+          .row3 {
+             margin-left: 0px;
+              margin-top: -70px; 
+         }
+         .forms h3 {
+             font-size: 20px;
+         }
+    }
+
+@media screen and (max-width: 375px) {
+         
+    h1:before{
+            width: 190px;
+}
+        
+        h1:after {
+            width: 190px;
+ 
+} 
+          .hero_marker {
+             margin-top: 240px;
+}
+    .right h2 {
+            margin-right: 182px;
+    }
+    .main_resume_web2 ul {
+          margin-left: 43px;
+    }
+    
+    .forms >div span {
+        margin-right: -58px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+         
+       .hero a {
+    margin: 50px 11px;
+    }
+             .mobile-nav ul {
+        padding: 1px 41px 5px 0px;
+             margin: 31px  6px 0 -41px;
+    }
+    .about {   
+    max-height: 3254px;
+    
+}
+    .right h2 {
+               margin-right: 127px;
+    }
+    
+    .right .lor {
+                margin-right: -82px;
+    }
+    
+    .icons p {
+           margin-right: -91px;
+    }
+    
+     .icons2 p {
+          margin-right: -99px;
+    }
+    
+    .skills ul div  {
+        width: 50%;
+}
+    
+     .main_resume_download p{
+        margin-left: -190px;
+         margin-right: -197px;
+    }
+    .main_resume_download a{
+        margin-left: -50px;
+  
+    }
+    
+    .main_resume_web2 ul {
+            margin-left: 62px;
+    }
+    
+    .john .top {
+        margin-right: 334px;
+    }
+    
+    .john p {
+        margin-right: 362px;
+    }
+    
+    .john h3 {
+           margin-left: -449px;
+    }
+    .john_marker {
+        margin-left:  -435px;
+    }
+    .container7 {
+    height: 645px;
+}
+    .portfolio h3 {
+        padding-left: 43px;
+    }
+    
+    .portfolio .top {
+        padding-left: 43px;
+          padding-right: 177px;
+    }
+    
+    .portfolio .button {
+        padding-left: 43px;
+    }
+    
+        .row1, row2, .row3 {
+        margin-left: -137px;
+        padding-right: 0px;
+         margin-right: 20px;
+    } 
+    
+    .row2 {
+        margin-left: 1px;
+    }
+    
+    .row3 {
+        margin-left: 2px;
+    }
+    .forms {
+           height: 1641px;
+    }
+    .copyright {
+        margin-left: 8px;
+    }
+}
+
+
+
+
